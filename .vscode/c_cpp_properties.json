@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\hholzner\\Documents\\Arduino\\libraries\\Arduino_LSM9DS1\\src",
+                "C:\\Users\\hholzner\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\**",
+                "C:\\Users\\hholzner\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed\\1.1.6\\**",
+                "C:\\Users\\hholzner\\Documents\\Arduino\\libraries\\**"
+            ],
+            "forcedInclude": [
+                "C:\\Users\\hholzner\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed\\1.1.6\\cores\\arduino\\Arduino.h"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

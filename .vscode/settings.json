@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "xstring": "cpp",
+        "string_view": "cpp",
+        "string": "cpp",
+        "chrono": "cpp",
+        "cstdlib": "cpp",
+        "mutex": "cpp",
+        "condition_variable": "cpp"
+    }
+}
