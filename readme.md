@@ -1,4 +1,4 @@
-# Bluetooth Remote Control for Lego Technic Hub
+# Bluetooth Remote Control for [Lego Technic Hub](https://www.lego.com/de-at/product/technic-hub-88012?cmp=KAC-INI-GOOGEU-GO-AT-DE-SP-BUY-SHOP-PLA-BP-SP-RN-Shopping&ef_id=EAIaIQobChMIm9fm7N_D6wIVvSB7Ch3OtwRWEAQYAiABEgI_DvD_BwE:G:s&s_kwcid=AL!933!3!288221002759!!!g!296439327739!)
 
 This is an arduino sketch to control the assembled LEGO Technic vehicles via the Bluetooth LE interface and IMU sensor.
 
