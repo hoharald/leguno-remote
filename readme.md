@@ -1,4 +1,4 @@
-# Bluetooth Remote control for Lego Technic Hub
+# Bluetooth Remote Control for Lego Technic Hub
 
 This is an arduino sketch to control the assembled motions via the Bluetooth LE interface.
 
