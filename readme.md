@@ -10,7 +10,7 @@ This is an arduino sketch to control the assembled LEGO Technic vehicles via the
 - [Arduino NANO 33 BLE Sense](https://store.arduino.cc/arduino-nano-33-ble-sense) ([Getting Started Guide](https://www.arduino.cc/en/Guide/NANO33BLESense))
 
 ## Installation
-Just download the sketch with your preferred IDE to the board. If you want to have debug information you might uncomment the `#define DEBUG` line at the beginning of the sketch. If you do so and upload it to the remote it will wait after power on until a serial terminal is connected.
+Just upload the sketch with your preferred IDE to the board. If you want to have debug information you might uncomment the `#define DEBUG` line at the beginning of the sketch. If you do so and upload it to the remote it will wait after powered on until a serial terminal is connected.
 
 ## Current supported vehicles
 - Lego Technic 4x4 Offroader 42099
