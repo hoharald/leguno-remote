@@ -27,6 +27,5 @@ The picture below shows the **Arduino NANO 33 BLE Sense** and its orientation to
 ![](./docs/images/rotations.png)
 
 ## Useful Links
-[LEGO BLE Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/index.html#document-index)
-[Edge Internals](edge://bluetooth-internals/#adapter)
-[Chrome Internals](chrome://bluetooth-internals/#adapter)
+- [LEGO BLE Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/index.html#document-index)  
+- If you use Microsoft Edge as your preferred browser use [Edge Internals](edge://bluetooth-internals/#adapter) in case of Google Chrome [Chrome Internals](chrome://bluetooth-internals/#adapter) to investigate your bluetooth peripheral
