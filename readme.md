@@ -25,3 +25,8 @@ The remote will send some setup commands to the hub so the two motors on port A 
 Rotating the board around the Y-axes will increase/decrease speed. So you can move the vehicle forward and backward. Like in case rotating around the X-axes will allow you to steer your vehicle.  
 The picture below shows the **Arduino NANO 33 BLE Sense** and its orientation to control a vehicle.
 ![](./docs/images/rotations.png)
+
+## Useful Links
+[LEGO BLE Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/index.html#document-index)
+[Edge Internals](edge://bluetooth-internals/#adapter)
+[Chrome Internals](chrome://bluetooth-internals/#adapter)
