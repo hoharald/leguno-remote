@@ -3,11 +3,11 @@
 #include <math.h>
 #include "TechnicHub.h"
 
-//#define DEBUG                                           //If you comment this line, the DPRINT & DPRINTLN lines are defined as blank.
+//#define DEBUG                                         //Uncomment this line to debug via a connected serial terminal
 
-#ifdef DEBUG                                            //Macros are usually in all capital letters.
-  #define DPRINT(...)    Serial.print(__VA_ARGS__)      //DPRINT is a macro, debug print
-  #define DPRINTLN(...)  Serial.println(__VA_ARGS__)    //DPRINTLN is a macro, debug print with new line
+#ifdef DEBUG
+  #define DPRINT(...)    Serial.print(__VA_ARGS__)
+  #define DPRINTLN(...)  Serial.println(__VA_ARGS__)
 #else
   #define DPRINT(...)     //now defines a blank line
   #define DPRINTLN(...)   //now defines a blank line
