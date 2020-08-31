@@ -22,7 +22,7 @@ Power on your remote (Arduino Board). The easiest way might be to supply it via 
 The remote will send some setup commands to the hub so the two motors on port A and B get mapped to one virtual port. For the last step the steering range and the central position for the steering will be initialized. 
 
 ## Steering the vehicle
-Rotating the board around the Y-axes will increase/decrease speed. So you can move the vehicle forward and backward. Like in case rotating around the X-axes will allow you to steer your vehicle.  
+Rotating the board around the Y-axes will increase/decrease speed. So you can move the vehicle forward and backward. Like in case rotating around the X-axes will allow you to turn left and right.  
 The picture below shows the **Arduino NANO 33 BLE Sense** and its orientation to control a vehicle.
 ![](./docs/images/hub-remote.png)
 
