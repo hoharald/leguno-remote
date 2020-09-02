@@ -1,6 +1,6 @@
-/*  This library allows to create and convert received packages
+/*  This library allows to create and convert received messages
     from a LEGO Technic Hub with integrated BLE
-    Copyright (C) 2020  Harald Holzner
+    Copyright (C) 2020  hoharald
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
