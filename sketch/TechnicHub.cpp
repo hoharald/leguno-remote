@@ -1,4 +1,4 @@
-/*  This library allows to create and convert received packages
+/*  This library allows to create and convert received messages
     from a LEGO Technic Hub with integrated BLE
     Copyright (C) 2020  hoharald 
 
