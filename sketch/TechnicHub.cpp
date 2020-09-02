@@ -1,3 +1,21 @@
+/*  This library allows to create and convert received packages
+    from a LEGO Technic Hub with integrated BLE
+    Copyright (C) 2020  hoharald 
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
 #include "TechnicHub.h"
 
 TechnicHubMessageBuilder::TechnicHubMessageBuilder() {
@@ -88,6 +106,10 @@ uint8_t TechnicHubMessageBuilder::createPortOutputGoToAbsolutePosition(uint8_t p
  TechnicHubMessageHeader TechnicHubMessageBuilder::_convertHeader() {
     return TechnicHubMessageHeader(TechnicHubMessageBuilder::buffer[0], TechnicHubMessageBuilder::buffer[1], static_cast<TechnicHubMessageType>(TechnicHubMessageBuilder::buffer[2]));
 };
+
+/**********************************************/
+/* The following methods are work in progress */
+/**********************************************/
 
 boolean* TechnicHubMessageBuilder::_getPortModes(uint16_t modes) {
     // const result: boolean[] = [];
